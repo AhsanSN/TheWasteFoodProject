@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<title>The Waste Food Project</title>
+<link rel="icon" type="image/png" href="logo.png" />
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet2.css">
+
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body  background="i8.jpg">
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card-2">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Back</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Page content -->
+
+  <!-- Automatic Slideshow Images -->
+    <div class="w399-display-bottommiddle w319-container w31-text-white w301-padding-701-padding-700 w399-hide-small">
+	<!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1000px" id="band">
+    <p class="w3-opacity"><i><p>
+
+
+<h1> About the project </h1>
+<p>This project aims to make the donation process, quick and convenient. It brings the Food Donors and the Food Takers (FNUs) closer through this website. 
+This project makes the food donation process super easy by connecting the food donors to all those food needing institutions in Karachi. Now, one can easily donate their leftover food to NGOs
+by simply posting on this website. 
+When a post is added on our website, all the FNUs receive a text message about your leftover food.
+The FNU nearest to your home will contact you and will pick up the food.
+The process of posting on our website takes less than a minute, that makes the donation process easy.
+
+<h1> About our team </h1>
+
+This project has been started by Ahsan Ahmed, a Habib University student, in collaboration with Karachi Civic Innovation Lab (KCIL). KCIL is a part of Pakistan Innovation Foundation(PIF), and was created
+few years ago at NEST I/O.
+
+
+</p>
+					
+Ahsan Ahmed, the founder of this project, is from Karachi, Pakistan. He is doing a major in Electrical Engineering from Habib University.
+He did his high schooling from Adamjee Government Science College. He loves working on projects, mainly related to electronics and robotics, and has worked on many projects before this.
+
+<p>
+<b><u>Our Contributors</b></u>
+<p>
+Hasan Khan - Web Developer
+<br>
+Hamza Ali - Web Developer
+<br>
+Muneeb Shoaib - Project Coordinator
+<br>
+Rohan Khan - Surveyee
+<br>
+Taha Ahmed - Designer
+<br>
+Mahad Ali - Surveyee
+
+<p>
+
+
+
+
+</p></p>
+    	   
+
+
+  
+  
+<!-- End Page Content -->
+</div>
+<script>
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-104542303-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

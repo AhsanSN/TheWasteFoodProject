@@ -1,0 +1,128 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<title>The Waste Food Project</title>
+<link rel="icon" type="image/png" href="logo.png" />
+<meta name="description" content="We help you donate your leftover food to needy people, through our home service. Simply, post on our website">
+<meta name="keywords" content="Food,NGO,Needy,
+People,Leftover,Eat,Food Bank,Bank,Waste Food,Waste,donation,donate,give, home, wedding, weddings">
+</head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet2.css">
+
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+
+<body style="background-image: url(i10.jpg); background-repeat:no-repeat; background; background-position: top center;">
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card-2">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="about_us.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About us</a>
+	<a href="signup.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Signup</a>
+      </div>
+    </div>
+
+
+<!-- Page content 
+
+
+-->
+<!-- Page content -->
+
+  <!-- Automatic Slideshow Images -->
+	<!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1000px" id="band">
+    <h2 class="w3">The Waste Food Project</h2>
+    <p1  class="w3-opacity"><i>Donate your leftover to the needy ones</p1>
+    	   
+
+
+  
+<!-- End Page Content -->
+</div>
+
+    	   
+<div class="w3">
+  <div class=" w3">
+    <a class=" w3-bar-button w3-padding-large w3-hide-medium w3-hide-large " href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    
+	<h1 align=center><a href="http://thewastefoodproject.com/donate.html" target="_blank"  align=center class="w3-black w3-button ">Donate here</a></h1>
+	
+	
+      </div>
+    </div>
+
+
+    </div>
+  </div>
+  
+
+  
+  <div id="fkp_link">
+  <a href='http://www.fb.com/thewastefoodproject'>
+  <img  height="50px" width="50px" src="fb.png"/>
+  </a>
+  <div id="fkp_link1">
+  <a href='https://www.facebook.com/thewastefoodproject/videos/202638166936130/'>
+  <img  height="50px" width="50px" src="do2.png"/>
+  </a>
+
+<!-- End Page Content -->
+</div>
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-104542303-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
